@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(rgba(0,0,0,0.5)),url(https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+
+
+        }
+
+        .login {
+            border: 2px solid rgb(244, 155, 155);
+            box-shadow: 1px 1px 1px black;
+            width: 300px;
+            height: 300px;
+            margin-top: 100px;
+            border-radius: 10px;
+            backdrop-filter:blur(20px);
+        }
+        .login button{
+            color: pink;
+            height:30px ;
+            width: 250px;
+            border: 1px;
+            border-radius: 100px;
+            font-weight: bold;
+            margin-top:20px ;
+        }
+        .login button:hover{
+            background: black ;
+        }
+        .login input{
+            background:pink;
+            height: 30px;
+            width: 250px;
+            border-radius: 100px;
+            border-color: wheat;
+            text-align: center;
+        
+
+        }
+        .a{
+            color: wheat
+        }
+ 
+
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="login">
+            <h2 class="a">LOGIN</h2>
+            <form action="">
+                <input type="email,phone" name placeholder="email,phone">
+                <br><br>
+                <input type="password" name placeholder="password">
+                <br><br>
+                <a href="http://127.0.0.1:5500/otp.html?"> forgot password</a>
+                <button type="login"> login</button>
+            
+
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
